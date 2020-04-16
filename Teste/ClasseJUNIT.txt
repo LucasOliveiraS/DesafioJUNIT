@@ -25,3 +25,19 @@ public class JulgamentoPrisioneiro {
                 }
      }
 }
+
+JulgamentoPrisioneiroTest.java
+
+
+import static org.junit.jupiter.api.Assertions.*;
+
+import org.junit.jupiter.api.Test;
+
+class JulgamentoPrisioneiroTest {
+
+	@Test
+	void testJulgamento() {
+		fail("Not yet implemented");
+	}
+
+}

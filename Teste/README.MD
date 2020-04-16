@@ -1,0 +1,1 @@
+Esta pasta deve ser destinada a guardar os testes da aplicação.

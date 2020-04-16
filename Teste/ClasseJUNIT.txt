@@ -1,0 +1,15 @@
+@Test
+    void testCenario1() {
+        Resposta respostaSuspeitoA = Resposta.DELACAO;
+        Resposta respostaSuspeitoB = Resposta.DELACAO;
+
+        JulgamentoPrisioneiroTest dp = new JulgamentoPrisioneiroTest();
+        assertNotNull(dp);
+
+        int penaSuspeitoA = dp.calculaPena(respostaSuspeitoA, respostaSuspeitoB);
+        int penaSuspeitoB = dp.calculaPena(respostaSuspeitoB, respostaSuspeitoA);
+
+        assertEquals(5, penaSuspeitoA);
+        assertEquals(5, penaSuspeitoB);
+
+    }
